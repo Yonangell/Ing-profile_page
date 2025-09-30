@@ -1,3 +1,4 @@
+
 * {
    margin: 0;
    padding: 0;
@@ -17,14 +18,14 @@
 }
 
 body {
-   background: linear-gradient(135deg, #e3f2fd 0%, #f4f6f8 100%);
+   background: linear-gradient(135deg, #4a4c4e 0%, #f4f6f8 100%);
    font-family: 'Montserrat', Arial, sans-serif;
    margin: 0;
    padding: 0;
 }
 
 .perfil-conta {
-   max-width: 400px;
+   max-width: 1000px;
    margin: 40px auto;
    background: #ffffffcc;
    border-radius: 40px;
@@ -34,12 +35,12 @@ body {
 }
 
 .image {
-   width: 120px;
-   height: 120px;
+   width: 180px;
+   height: 180px;
    object-fit: cover;
    border-radius: 50%;
    border: 4px solid #29a97a;
-   margin-bottom: 50px;
+   margin-bottom: 40px;
 }
 
 h1 {
@@ -58,6 +59,10 @@ h2 {
    margin-bottom: 20px;
 }
 
+.decri {
+   background:#605d5d;
+}
+
 .pefil-infor-ul {
    list-style: none;
    padding-left: 0;
@@ -72,6 +77,10 @@ h2 {
 h3 {
    margin-bottom: 8px;
    color: #343434;
+}
+
+.detalles {
+   padding-top: 1.5rem;
 }
 
 .perfil-redes {
