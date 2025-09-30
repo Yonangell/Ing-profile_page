@@ -1,4 +1,11 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
 /* Estilo para el título principal fuera del div */
+
 .titulo-principal {
    text-align: center;
    font-size: 2.2rem;
@@ -8,27 +15,22 @@
    font-family: 'Montserrat', Arial, sans-serif;
    letter-spacing: 1px;
 }
-* {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box; 
-}
 
 body {
-      background: linear-gradient(135deg, #e3f2fd 0%, #f4f6f8 100%);
-      font-family: 'Montserrat', Arial, sans-serif;
-      margin: 0;
-      padding: 0;
+   background: linear-gradient(135deg, #e3f2fd 0%, #f4f6f8 100%);
+   font-family: 'Montserrat', Arial, sans-serif;
+   margin: 0;
+   padding: 0;
 }
 
 .perfil-conta {
-  max-width: 400px;
-  margin: 40px auto;
-  background: #ffffffcc;
-  border-radius: 40px;
-  box-shadow: 0 4px 24px rgb(25, 118, 210, 0,08); 
-  padding: 32px 24px;
-  text-align: center;
+   max-width: 400px;
+   margin: 40px auto;
+   background: #ffffffcc;
+   border-radius: 40px;
+   box-shadow: 0 4px 24px rgb(25, 118, 210, 0, 08);
+   padding: 32px 24px;
+   text-align: center;
 }
 
 .image {
@@ -52,14 +54,14 @@ h2 {
    margin-bottom: 14px;
 }
 
-.perfil-infor{
+.perfil-infor {
    margin-bottom: 20px;
 }
 
 .pefil-infor-ul {
    list-style: none;
    padding-left: 0;
-    margin: 0; 
+   margin: 0;
 }
 
 .perfil-infor-li {
@@ -98,8 +100,5 @@ h3 {
 }
 
 .social-a:hover .pefil-ima {
-background: #131313;
+   background: #131313;
 }
-
-
-  
