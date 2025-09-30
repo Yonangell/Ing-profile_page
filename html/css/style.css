@@ -9,7 +9,7 @@
 .titulo-principal {
   text-align: center;
   font-size: 2.2rem;
-  color: #1f2020;
+  color: #090909;
   margin-top: 32px;
   margin-bottom: 16px;
   font-family: "Montserrat", Arial, sans-serif;
@@ -17,7 +17,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #4a4c4e 0%, #f4f6f8 100%);
+  background: linear-gradient(135deg, #3698e9 0%, #f4f6f8 100%);
   font-family: "Montserrat", Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -139,4 +139,23 @@ span {
 
 .social-a:hover .pefil-ima {
   background: #131313;
+}
+
+button {
+  background: #5863a6;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 36px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(88, 99, 166, 0.12);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+  margin-top: 18px;
+}
+button:hover {
+  background: #40497a;
+  box-shadow: 0 4px 16px rgba(88, 99, 166, 0.18);
+  transform: translateY(-2px) scale(1.04);
 }
